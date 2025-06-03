@@ -1,0 +1,23 @@
+.features {
+  background-color: $gray-color;
+  padding: 50px 0;
+
+
+
+  &__card-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding-bottom: 15px;
+    padding-top: 15px;
+
+  }
+
+
+
+  &__btn {
+    display: flex;
+    justify-content: center;
+  }
+}

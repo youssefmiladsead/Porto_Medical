@@ -1,0 +1,37 @@
+ .nav {
+   padding: 1rem 0;
+   background-color: white;
+   position: sticky;
+   top: 0;
+   z-index: 1000;
+ 
+   &__row {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     gap: 2rem;
+
+   }
+
+   &__logo {
+     img {
+       max-height: 40px;
+       width: auto;
+       display: block;
+     }
+   }
+
+   &__btn-row {
+     display: flex;
+     gap: 1rem;
+     flex-wrap: nowrap;
+     white-space: nowrap;
+   }
+
+   &__btn {
+     a {
+       display: inline-block;
+       white-space: nowrap;
+     }
+   }
+ }

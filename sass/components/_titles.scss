@@ -1,0 +1,22 @@
+.sec-title{
+
+    // h2{
+
+    // }
+    // p{
+
+    // }
+    &__header{
+        color:$dark-color;
+        font-family: $main-font;
+        font-size: $meduim-header;
+        margin-bottom: 10px;
+        font-weight: 700;
+        text-transform: capitalize;
+
+    }
+    p{
+        color:$font-color;
+    }
+
+}

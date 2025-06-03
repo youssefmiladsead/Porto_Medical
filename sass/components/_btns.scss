@@ -1,0 +1,70 @@
+.btn {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: $main-font;
+    font-size: 13px;
+    padding: 10px 20px;
+    background-color: transparent;
+    white-space: nowrap;
+
+    &--primary {
+        color: $secondry-color;
+
+        &:hover {
+
+            @include hover-effect($primary-color);
+        }
+
+    }
+
+    &--secondry {
+        color: $secondry-color;
+        background-color: $light-color;
+
+        &:hover {
+
+            @include hover-effect($primary-color);
+        }
+
+        &.active {
+            background-color: $primary-color;
+            color: white;
+        }
+
+    }
+
+    &--dark {
+        color: $dark-color;
+        border: 2px solid $dark-color;
+
+        &:hover {
+            @include hover-effect($dark-color);
+
+        }
+    }
+
+    &--social,
+    &--socialf {
+        font-size: 10px;
+        padding: 6px 12px;
+        background-color: $light-color;
+        color: $font-color;
+
+        &:hover {
+            color: $light-color;
+        }
+    }
+
+    &--social {
+        &:hover {
+            @include hover-effect($secondry-color);
+        }
+    }
+
+    &--socialf {
+        &:hover {
+            @include hover-effect($primary-color);
+        }
+    }
+}

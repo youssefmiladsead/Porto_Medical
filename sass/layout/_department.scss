@@ -1,0 +1,20 @@
+.depratment{
+    background-color: $gray-color;
+    padding: 50px 0;
+
+    &__card-row{
+        display: flex;
+        margin:  50px 0;
+        justify-content: space-evenly;
+        .card-icon{
+            width: 30%;
+
+        }
+
+    }
+    &__btn{
+        display:flex;
+        justify-content: center;
+    }
+
+}
